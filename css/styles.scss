@@ -1,0 +1,129 @@
+$lg1: #97AE72;
+$lg2: #AFA15A;
+$lg3: #7C743E;
+$lg4: #5B482C;
+$lg5: #3F2010;
+$white: #f4f4f4;
+$chocoloate: #422419;
+$tan: #e2ac6b;
+$othertan: #cba36d;
+$black-transparent: rgba(0, 0, 0, 0.5);
+$gold: gold;
+$card-green: #C8C7B1;
+$tabs-lime: #bca471;
+
+
+
+
+.jumbotron {
+    padding: 30px;
+    margin: 0;
+    background-image: linear-gradient(315deg, $lg1 0%, $lg2, $lg3, $lg4, $lg5 74%);
+    color: $white;
+ }
+ 
+ #reserve-button {
+    background-color: $chocoloate;
+ }
+ 
+ .navbar {
+    background-color:  $tan;
+ }
+ 
+ .nav-link,
+ .navbar-brand {
+    color: #f4f4f4;
+    cursor: pointer;
+ }
+ 
+ .nav-link:hover {
+    background: $othertan;
+    color: #f4f4f4;
+ }
+ 
+ .navbar-collapse {
+    justify-content: flex-end;
+ }
+ 
+ #carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+ }
+ 
+ .carousel-caption {
+    background-color: $black-transparent;
+ }
+ 
+ .carousel {
+    border: solid $othertan;
+ }
+ 
+ #carousel {
+     background-color: $gold;
+ }
+ 
+ .row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+ }
+ 
+ .modal-header {
+    background-color: $lg1;
+ }
+ 
+ .card-header {
+    background-color: $chocoloate;
+ }
+ 
+ .card {
+    background-color: $card-green;
+ }
+ 
+ .tr {
+    background-color: $chocoloate;
+ }
+ 
+ .table {
+    background-color: $lg1;
+ }
+ 
+ .nav-tabs {
+    color: $tabs-lime;
+ }
+ 
+ .nav-link {
+    color: $chocoloate;
+ }
+ 
+ 
+ #full-button {
+    background-color: $tan;
+ }
+ 
+ #partial-button {
+    background-color: $tan;
+ }
+ 
+ .site-footer {
+    background-color: $tan;
+    padding: 20px 0;
+ }
+ 
+ .site-footer a { color: inherit; } 
+ 
+ .map-container-5{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-5 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }

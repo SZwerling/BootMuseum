@@ -1,0 +1,90 @@
+.jumbotron {
+  padding: 30px;
+  margin: 0;
+  background-image: linear-gradient(315deg, #97AE72 0%, #AFA15A, #7C743E, #5B482C, #3F2010 74%);
+  color: #f4f4f4; }
+
+#reserve-button {
+  background-color: #422419; }
+
+.navbar {
+  background-color: #e2ac6b; }
+
+.nav-link,
+.navbar-brand {
+  color: #f4f4f4;
+  cursor: pointer; }
+
+.nav-link:hover {
+  background: #cba36d;
+  color: #f4f4f4; }
+
+.navbar-collapse {
+  justify-content: flex-end; }
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100; }
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.carousel {
+  border: solid #cba36d; }
+
+#carousel {
+  background-color: gold; }
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
+
+.modal-header {
+  background-color: #97AE72; }
+
+.card-header {
+  background-color: #422419; }
+
+.card {
+  background-color: #C8C7B1; }
+
+.tr {
+  background-color: #422419; }
+
+.table {
+  background-color: #97AE72; }
+
+.nav-tabs {
+  color: #bca471; }
+
+.nav-link {
+  color: #422419; }
+
+#full-button {
+  background-color: #e2ac6b; }
+
+#partial-button {
+  background-color: #e2ac6b; }
+
+.site-footer {
+  background-color: #e2ac6b;
+  padding: 20px 0; }
+
+.site-footer a {
+  color: inherit; }
+
+.map-container-5 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0; }
+
+.map-container-5 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
