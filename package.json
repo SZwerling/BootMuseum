@@ -14,6 +14,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "usemin": "usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html",
+    
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
   },
   "author": "",
