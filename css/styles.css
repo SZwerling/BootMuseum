@@ -75,6 +75,8 @@
 
   .footlink {
     white-space: nowrap;
+    color: purple;
+    display: block!;
   }
 
 .site-footer {
